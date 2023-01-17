@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) 
 
 <!-- TABLE OF CONTENTS -->
 
@@ -8,7 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](https://yordinia.github.io/Awesome-books/)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Deployment](#triangular_flag_on_post-deployment)
@@ -22,13 +22,54 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"> </a> [🚀 Live Demo](https://yordinia.github.io/Awesome-books/)
 
 **Awesome Books** is a website that allow users to create a book with title and author name and add to their books list on the page.
+
+![screenshot](./assets/images/add.png)
+![screenshot](./assets/images/lists.png)
+![screenshot](./assets/images/contact.png)
 
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
+
+
+## Authors
+<!-- AUTHORS -->
+
+## 👥 Authors 
+<a name="authors"></a>
+
+👤 **Jonas-45**
+👤 **Yordanos Temesgen**
+
+__Jonas__
+- GitHub: [@hadle](https://github.com/jonas-45)
+- Twitter: [@Twitter](https://twitter.com/hadle)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/handle)
+
+
+__Yordanos Temesgen__
+- GitHub: [@yordinia](https://github.com/yordinia)
+- Twitter: [@yordinia](https://twitter.com/yordinia)
+- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+### Deployment
+
+- Project is deployed using
+- git push <branch_name>
+
+
+### To run tests 
+Run the following in terminal
+
+- npx hint .
+- npx stylelint "**/*.{css,scss}"
+- npx eslint . --fix
 
 
 
@@ -84,31 +125,7 @@ Clone this repository to your desired folder:
   git clone https://github.com/yordinia/Awesome-Books.git
 ```
 
-
-
 ### Deployment
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors 
-<a name="authors"></a>
-
-👤 **jonas-45**
-👤 **Yordanos Temesgen**
-
-__jonas-45__
-- GitHub: [@githubhandle](https://github.com/jonas-45) 
-- Twitter: [@twitterhandle](https://twitter.com/handel)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/handel/)
-
-__Yordanos Temesgen__
-- GitHub: [@yordinia](https://github.com/yordinia)
-- Twitter: [@yordinia](https://twitter.com/yordinia)
-- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -155,7 +172,7 @@ If you like this project give me a star.
 
 ## 📝 License <a name="license"></a>
 
-This project is [MIT](https://github.com/yordinia/Awesome-Books/blob/add-remove-books/LICENSE) licensed.
+This project is [MIT](./LICENSE) licensed.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

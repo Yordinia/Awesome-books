@@ -12,6 +12,7 @@ const inputAuthor = document.querySelector('#txt');
 const myButton = document.querySelector('.btn-list');
 const list = document.getElementById('book-list');
 const books = document.querySelector('.books');
+const time = document.querySelector('.time');
 
 class Books {
   constructor(title, author) {
@@ -62,3 +63,66 @@ class Books {
 myButton.addEventListener('click', Books.addBook);
 
 Books.disp();
+
+// Full app with the navigation area
+const sec1 = document.querySelector('.section1');
+const sec2 = document.querySelector('.section2');
+const sec3 = document.querySelector('.section3');
+const listBtn = document.getElementById('books-lists');
+const addbookBtn = document.getElementById('addNewbook');
+const contactBtn = document.getElementById('contact');
+
+// Single page App functions
+const listbookShow = () => {
+  sec1.classList.remove('no-display');
+  sec2.classList.add('no-display');
+  sec3.classList.add('no-display');
+  listBtn.classList.add('active-btn');
+  addbookBtn.classList.remove('active-btn');
+  contactBtn.classList.remove('active-btn');
+};
+
+const addNewBookShow = () => {
+  sec2.classList.remove('no-display');
+  sec1.classList.add('no-display');
+  sec3.classList.add('no-display');
+  addbookBtn.classList.add('active-btn');
+  listBtn.classList.remove('active-btn');
+  contactBtn.classList.remove('active-btn');
+};
+const showContact = () => {
+  sec3.classList.remove('no-display');
+  sec1.classList.add('no-display');
+  sec2.classList.add('no-display');
+  contactBtn.classList.add('active-btn');
+  addbookBtn.classList.remove('active-btn');
+  listBtn.classList.remove('active-btn');
+};
+contactBtn.addEventListener('click', showContact);
+listBtn.addEventListener('click', listbookShow);
+addbookBtn.addEventListener('click', addNewBookShow);
+
+// TIme function
+
+const setTime = () => {
+  const date = new Date();
+  const months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+  const month = months[date.getMonth()];
+  const year = date.getFullYear();
+  const day = date.getDate();
+  let minutes = date.getMinutes();
+  const hours = date.getHours();
+  let seconds = date.getSeconds();
+
+  if (seconds.toString().length < 2) {
+    seconds = `0${seconds}`;
+  }
+  if (minutes.toString().length < 2) {
+    minutes = `0${minutes}`;
+  }
+
+  const currentTime = `${month} ${day}th ${year}, ${hours}:${minutes}:${seconds}`;
+  time.textContent = '';
+  time.textContent = `${currentTime}`;
+};
+setTime();
