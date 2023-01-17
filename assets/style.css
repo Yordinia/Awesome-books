@@ -4,13 +4,63 @@
   box-sizing: border-box;
 }
 
+body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.header-top > h1 {
+  font-weight: 700;
+}
+
 h2 {
   border-top: 1.6px solid black;
   padding-top: 20px;
 }
 
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  border: 3px solid #000;
+  align-items: center;
+  padding: 12px;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+.navbar h2 {
+  border: none;
+  font-weight: 700;
+  font-size: 28px;
+  padding: 1%;
+}
+
+.navbar ul {
+  display: flex;
+  width: 40%;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  border-right: 3px solid #000;
+  width: 30%;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 20px;
+}
+
+.navbar ul .contactNav {
+  border-right: none;
+}
+
 .section1,
-.section2 {
+.section2,
+.section3 {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,13 +70,36 @@ h2 {
 }
 
 .section1 {
-  margin-top: 10vh;
   height: auto;
 }
 
 .section2 {
   max-width: 300px;
   height: 250px;
+}
+
+.section3 h1 {
+  font-weight: 700;
+}
+
+.section3 p {
+  margin: 20px 0;
+}
+
+.section3 ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.section3 ul li {
+  margin: auto 0;
+}
+
+.section3 ul li ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
 }
 
 form {
@@ -44,14 +117,12 @@ input {
 
 .btn-list {
   width: 30%;
-  margin-left: 180px;
-  cursor: pointer;
+  margin-left: auto;
 }
 
 .delete-btn {
   cursor: pointer;
   padding: 10px;
-  margin-left: 50%;
 }
 
 .books-list-container {
@@ -66,4 +137,35 @@ input {
 input {
   border: 2px solid black;
   text-transform: uppercase;
+}
+
+.footer {
+  margin-top: auto;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 2%;
+  align-content: center;
+  margin-left: 5%;
+  width: 90%;
+}
+
+.no-display {
+  display: none;
+}
+
+.active-btn {
+  background-color: rgb(173, 177, 184);
+  color: white;
+  border: 0.7px solid white;
+  border-radius: 7%;
+  padding: 4px;
+}
+
+/* time container */
+
+.time-section {
+  display: flex;
+  justify-content: flex-end;
+  margin: 30px 5% 0 0;
 }

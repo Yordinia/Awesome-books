@@ -8,9 +8,28 @@
     <link rel="stylesheet" href="/assets/style.css">
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css"/>
 </head>
-<body>  
- 
-<section class="section1">
+<script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){window.dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-HQREYRLMDN');
+</script>
+<body> 
+    <header>
+        <nav class="navbar">
+         <h2 class="tag-title">Awesome Books</h2>
+          <ul class="top-menu">
+            <li><a href="#" id="books-lists" class="nav-links listNav">List</a></li>
+            <li><a href="#" id="addNewbook" class="active-btn">Add new</a></li>
+            <li class="contactNav"><a href="#" id="contact">Contact</a></li>
+          </ul>
+        </nav>
+        </header> 
+
+<div class="time-section">
+      <p class="time"></p>
+  </div>
+<section class="no-display section1 ">
         <header>
           <div class="header-top">
             <h1>All Awesome Books</h1>
@@ -18,19 +37,45 @@
         </header>
           <table class="books-list-container table table-striped" id="books-list-container">
             <tbody id="book-list" class="books"></tbody>
-          </table>
-          
+          </table>    
 </section>   
 
 <section id="container" class="section2">
-  <h2>Add a new Book</h2>    
-    
+  <h1>Add a new Book</h1>    
     <form action="" id="add" class="input-container" >
         <input type="text" id="text" placeholder="Title">
         <input type="text" id="txt" placeholder="Author">
-        <button type="submit" class="btn-list ">Add</button>
+        <button type="submit" class="btn-list btn btn-outline-primary">Add</button>
     </form> 
-</section>  
-<script src="assets/app.js"></script>
+</section>
+
+<section class="no-display section3" id="contact-info">
+    <h1>Contact Information</h1>
+    <p>Do you have any questions or suggestions or you'd want to drop us a hello? <br> You can reach as to!</p>
+    <ul>
+      <li>Yordanos Temesgen</li>
+      <li>
+        <ul>
+          <li>Mail at yoriyordina7@gmail.com</li>
+          <li>Number at Yordi</li>
+          <li>Address at Addis-Ababa :), Ethiopia</li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li>Caren Siya</li>
+      <li>
+        <ul>
+          <li>Mail at carensiya5@gmail.com</li>
+          <li>Number at Caren</li>
+          <li>Address at Nairobi (Meru :), Kenya</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+  <footer class="footer navbar">
+    <p>&copy;Yordi & carensiya 2023 all right Reserved.</p>
+  </footer>
+<script src="./assets/app.js"></script>
 </body>
 </html>
