@@ -9,15 +9,28 @@
     <link rel="stylesheet" href="https://bootswatch.com/5/sketchy/bootstrap.min.css"/>
 </head>
 <body>  
-  <h1>Awesome Books</h1>    
-    <div id="container">
-        <ul id="book-list" class="books"></ul>
-    </div>
-    <form action="" id="add" >
+ 
+<section class="section1">
+        <header>
+          <div class="header-top">
+            <h1>All Awesome Books</h1>
+          </div>
+        </header>
+          <table class="books-list-container table table-striped" id="books-list-container">
+            <tbody id="book-list" class="books"></tbody>
+          </table>
+          
+</section>   
+
+<section id="container" class="section2">
+  <h2>Add a new Book</h2>    
+    
+    <form action="" id="add" class="input-container" >
         <input type="text" id="text" placeholder="Title">
         <input type="text" id="txt" placeholder="Author">
-        <button type="submit" class="btn-list btn btn-outline-primary">Add</button>
-    </form>   
+        <button type="submit" class="btn-list ">Add</button>
+    </form> 
+</section>  
 <script src="assets/app.js"></script>
 </body>
 </html>
