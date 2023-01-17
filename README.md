@@ -1,4 +1,4 @@
-![](https://img.shields.io/badge/Microverse-blueviolet)
+![](https://img.shields.io/badge/Microverse-blueviolet) 
 
 <!-- TABLE OF CONTENTS -->
 
@@ -22,7 +22,7 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 Awesome Books <a name="about-project"></a>
+# 📖 Awesome Books <a name="about-project"> </a> [🚀 Live Demo](https://yordinia.github.io/Awesome-books/)
 
 **Awesome Books** is a website that allow users to create a book with title and author name and add to their books list on the page.
 
@@ -36,19 +36,40 @@
 
 
 ## Authors
+<!-- AUTHORS -->
 
-👤 **Author1**
-### Run tests
+## 👥 Authors 
+<a name="authors"></a>
 
-- To run tests run :
-- npx hint .
-- npx stylelint "**/*.{css,scss}"
+👤 **Jonas-45**
+👤 **Yordanos Temesgen**
+
+__Jonas__
+- GitHub: [@hadle](https://github.com/jonas-45)
+- Twitter: [@Twitter](https://twitter.com/hadle)
+- LinkedIn: [LinkedIn](www.linkedin.com/in/handle)
+
+
+__Yordanos Temesgen__
+- GitHub: [@yordinia](https://github.com/yordinia)
+- Twitter: [@yordinia](https://twitter.com/yordinia)
+- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 ### Deployment
 
 - Project is deployed using
 - git push <branch_name>
 
+
+### To run tests 
+Run the following in terminal
+
+- npx hint .
+- npx stylelint "**/*.{css,scss}"
+- npx eslint . --fix
 
 
 
@@ -104,32 +125,7 @@ Clone this repository to your desired folder:
   git clone https://github.com/yordinia/Awesome-Books.git
 ```
 
-
-
 ### Deployment
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- AUTHORS -->
-
-## 👥 Authors 
-<a name="authors"></a>
-
-👤 **Jonas-45**
-👤 **Yordanos Temesgen**
-
-__Jonas__
-- GitHub: [@hadle](https://github.com/jonas-45)
-- Twitter: [@Twitter](https://twitter.com/hadle)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/handle)
-
-
-__Yordanos Temesgen__
-- GitHub: [@yordinia](https://github.com/yordinia)
-- Twitter: [@yordinia](https://twitter.com/yordinia)
-- LinkedIn: [Yordanos-Temesgen](https://linkedin.com/in/yordanos-temesgen-251b6a202)
-
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
