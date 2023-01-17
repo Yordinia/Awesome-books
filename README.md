@@ -8,7 +8,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
-  - [🚀 Live Demo](#live-demo)
+  - [🚀 Live Demo](https://yordinia.github.io/Awesome-books/)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Deployment](#triangular_flag_on_post-deployment)
